@@ -5,8 +5,8 @@ import Home from './screens/Home';
 
 EStyleSheet.build(
     {
-        $primaryBlue: '#4F6D7A',
-        $mainTextColor: '#4169E1'
+        $backgroundColor: '#4F6D7A',
+        $mainTextColor: '#E0FFFF'
     }
 );
 
