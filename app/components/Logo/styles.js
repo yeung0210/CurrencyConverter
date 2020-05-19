@@ -19,7 +19,7 @@ export default EStyleSheet.create(
             fontWeight: '600',
             alignItems: 'center',
             marginTop: 30,
-            color: '#0DD',
+            color: '$mainTextColor',
         }
     }
 );
