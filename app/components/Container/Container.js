@@ -1,12 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View } from 'react-native';
+import { View, KeyboardAvoidingView } from 'react-native';
 import Styles from './styles';
 
 const Container = ({ children }) => (
-    <View style={Styles.container}>
-        {children}
-    </View>
+    <KeyboardAvoidingView
+        behavior="padding"
+        style={{ flex: 1 }}>
+        <View style={Styles.container}>
+            {children}
+        </View>
+    </KeyboardAvoidingView>
+    
 );
 
 Container.propTypes = {
