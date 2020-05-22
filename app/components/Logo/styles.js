@@ -7,6 +7,7 @@ export default EStyleSheet.create(
     {
         container: {
             alignItems: 'center',
+            marginVertical: 30,
         },
         containerImage: {
             alignItems: 'center',

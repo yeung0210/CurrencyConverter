@@ -6,7 +6,7 @@ export default EStyleSheet.create(
             flex: 1,
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundColor: '$backgroundColor',
+            backgroundColor: '$mainColor',
         } 
 
     }
