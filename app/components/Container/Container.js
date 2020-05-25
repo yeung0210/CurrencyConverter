@@ -5,14 +5,14 @@ import Styles from './styles';
 
 const Container = ({ children }) => (
     <KeyboardAvoidingView
-        behavior="padding"
+        behavior={Platform.OS === "ios" ? "padding" : null}
         style={{ flex: 1 }}>
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
         <View style={Styles.container}>
             {children}
         </View>
     </TouchableWithoutFeedback>
-    </KeyboardAvoidingView>
+    </KeyboardAvoidingView> 
     
 );
 
