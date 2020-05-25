@@ -26,7 +26,7 @@ const InputWithButton = (props) => {
     );
 };
 
-InputWithButton.prototype = {
+InputWithButton.propTypes = {
     onPress: PropTypes.func,
     buttonText: PropTypes.string,
     editable: PropTypes.bool,
